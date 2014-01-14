@@ -14,27 +14,6 @@
                   }
               },
               {
-                  align: "right",
-                  widget: "button",
-                  options: {
-                      icon: "plus",
-                      clickAction: function(e) {
-                          console.log("plus click")
-                      }
-                  }
-              },
-              {
-                  align: "right",
-                  widget: "dropDownMenu",
-                  options: {
-                      items: [
-                          "Add",
-                          "Edit",
-                          "Remove"
-                      ]
-                  }
-              },
-              {
                   align: "center",
                   text: "Toolbar"
               }
@@ -46,10 +25,10 @@
                 this.navbar.currentImage(e.itemData.image);
             },
             items: [
-                { text: "Home", icon: "home", image: "./content/images/navigation/icon-home.png" },
-                { text: "User", icon: "user", image: "./content/images/navigation/icon-user.png" },
-                { text: "Comment", icon: "comment", image: "./content/images/navigation/icon-message.png" },
-                { text: "Photo", icon: "photo", image: "./content/images/navigation/icon-image.png" }
+                { text: "Alok Ji", icon: "user", image: "./content/images/navigation/icon-user.png" },
+                { text: "Aarti", icon: "music"},
+                { text: "Sanskari", icon: "comment", image: "./content/images/navigation/icon-message.png" },
+                { text: "About", icon: "find", image: "./content/images/navigation/icon-search.png" }
             ],
             selectedIndex: ko.observable(0)
         }
